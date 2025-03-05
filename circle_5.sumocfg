@@ -1,0 +1,13 @@
+
+<configuration>
+    <input>
+       <net-file value="circle_5.net.xml"/>
+       <route-files value="circle_5.rou.xml"/>
+       <lateral-resolution value=".2"/>
+       <collision.action value="warn"/>
+       <additional-files value="circle_4.add.xml"/>
+    </input>
+    <time>
+	<step-length value= ".25" />
+    </time>
+</configuration> 

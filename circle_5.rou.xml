@@ -1,0 +1,7 @@
+
+<routes>
+    <vType id="type1" accel="5" decel="7.5" laneChangeModel="SL2015" lcPushyGap=".2" sigma="0.5" length="3.2" maxSpeed="30" latAlignment="compact" minGapLat=".1" tau=".25"  departPosLat="center"/>
+    <vType id="type2" accel="5" decel="7.5" laneChangeModel="SL2015" lcPushyGap=".2" sigma="0.01" length="3.2" width="1.8" latAlignment='arbitrary' minGapLat=".5" tau=".25" maxSpeed="50" minGap=".5"  departPosLat="center" maxSpeedLat="5" lcAccelLat="5000"/>
+    <vType id="type3" accel="5" decel="7.5" sigma="0.5" length="5"  maxSpeed="30" latAlignment="compact" minGapLat=".1" tau=".25" maxSpeedLat="1" lcAccelLat="5000"/>
+    <route id="route0"  edges="e1 e2"/>
+</routes> 
